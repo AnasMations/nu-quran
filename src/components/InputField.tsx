@@ -8,7 +8,7 @@ interface Props {
   type?: string;
 }
 
-export default function BasicContainer({ label, placeholder, className, type }: Props) {
+export default function InputField({ label, placeholder, className, type }: Props) {
   return (
     <div className="flex flex-col items-end gap-3 w-full">
       <label className="text-lg text-primary-100 font-bold">{label}</label>

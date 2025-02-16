@@ -33,11 +33,16 @@ export default {
           '0%': { transform: 'translateY(100%)' },
           '100%': { transform: 'translateY(0)' },
         },
+        'grow-up': {
+          '0%': { height: '0px' },
+          '100%': { height: 'var(--target-height)' }
+        },
       },
       animation: {
         'slide-up': 'slide-up 1s ease-out',
         'slide-up-delayed': 'slide-up 1.2s ease-out 0.2s',
         'slide-up-delayed-more': 'slide-up 0.5s ease-out 0.4s',
+        'grow-up': 'grow-up 1s ease-out forwards',
       },
     },
   },
